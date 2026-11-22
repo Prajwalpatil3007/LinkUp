@@ -1,4 +1,4 @@
-# LinkUp – Connecting Students and Communities
+# LinkUp â€“ Connecting Students and Communities
 
 > **"Discover Opportunities. Connect with People. Create an Impact."**
 
@@ -6,7 +6,7 @@ LinkUp is a modern, responsive, full-stack multi-domain community networking, op
 
 ---
 
-## 🌟 Key Architecture & Highlights
+## ðŸŒŸ Key Architecture & Highlights
 
 - **One Unified Platform**: Academic research collaborations, student hackathons, NGO volunteer drives, and neighborhood assistance requests live in **one common Explore Opportunities section** with comprehensive category filters.
 - **Apple San Francisco (SF) Native Typography**:
@@ -25,7 +25,7 @@ LinkUp is a modern, responsive, full-stack multi-domain community networking, op
 
 ---
 
-## 🏛️ Eight Approved Fields
+## ðŸ›ï¸ Eight Approved Fields
 
 1. **Academics and Research**: Academic research projects, peer study groups, hackathons, and technical seminars.
 2. **Technology and Digital Awareness**: Senior smartphone assistance, digital public service clinics, cybersecurity awareness, and coding programs.
@@ -40,7 +40,7 @@ LinkUp is a modern, responsive, full-stack multi-domain community networking, op
 
 ---
 
-## 💻 Technology Stack
+## ðŸ’» Technology Stack
 
 | Layer | Technologies |
 |---|---|
@@ -51,7 +51,7 @@ LinkUp is a modern, responsive, full-stack multi-domain community networking, op
 
 ---
 
-## 👥 Supported Roles & Permissions
+## ðŸ‘¥ Supported Roles & Permissions
 
 Users participate flexibly across multiple roles:
 1. **Students**: Browse opportunities, apply to research teams, find hackathon teammates, join study groups.
@@ -65,7 +65,7 @@ Users participate flexibly across multiple roles:
 
 ---
 
-## 🚀 Quick Start & Installation
+## ðŸš€ Quick Start & Installation
 
 ### Prerequisites
 - Node.js (v18+) and npm installed.
@@ -116,7 +116,7 @@ npm start
 ```
 
 Access the application in your browser at:
-👉 **`http://localhost:5000`**
+ðŸ‘‰ **`http://localhost:5000`**
 
 Or run in development mode with hot reloading:
 - Backend API: `npm run dev` in `server/` (port 5000)
@@ -124,7 +124,7 @@ Or run in development mode with hot reloading:
 
 ---
 
-## 🔑 Pre-Seeded Instant Demo Accounts
+## ðŸ”‘ Pre-Seeded Instant Demo Accounts
 
 Default password for all demo accounts: **`Password123!`**
 
@@ -143,7 +143,7 @@ Default password for all demo accounts: **`Password123!`**
 
 ---
 
-## 📡 REST API Reference
+## ðŸ“¡ REST API Reference
 
 ### Authentication
 - `POST /api/auth/register` - Create new user account with skills, interests & roles
@@ -220,7 +220,7 @@ Default password for all demo accounts: **`Password123!`**
 
 ---
 
-## 🔒 Security & Standards
+## ðŸ”’ Security & Standards
 
 1. **Password Hashing**: Strong salting and hashing via `bcryptjs`.
 2. **JWT Authentication**: Secure Bearer tokens with 7-day expiration and protected route guards.
@@ -240,4 +240,5 @@ The repository is configured for a Vercel frontend and a Render API. MongoDB Atl
 
 For local development, copy `server/.env.example` to `server/.env`; never commit either local environment file or real credentials. MongoDB and a JWT secret are required in production. The local JSON datastore is development-only. Production seeding is disabled by default: the included demo accounts use a public default password and must not be seeded into a public deployment. Create the first administrator through a controlled provisioning process before enabling admin-only operations.
 
-Future updates: push the desired commit to the connected GitHub repository; Render and Vercel will build and deploy it automatically. The current workspace does not contain a Git repository or remote, so connect the project to GitHub before creating either provider deployment.
+Future updates: push changes to the connected GitHub repository; Render and Vercel can build and deploy them automatically after their projects are connected. The repository is available at https://github.com/Prajwalpatil3007/LinkUp.
+
